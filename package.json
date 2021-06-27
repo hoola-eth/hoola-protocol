@@ -1,0 +1,34 @@
+{
+  "name": "loop-defi",
+  "private": true,
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.3",
+    "@openzeppelin/contracts-upgradeable": "^4.1.0",
+    "@openzeppelin/hardhat-upgrades": "^1.8.2",
+    "@tenderly/hardhat-tenderly": "^1.0.12",
+    "dotenv": "^10.0.0",
+    "hardhat": "^2.4.1",
+    "hardhat-deploy": "^0.8.8",
+    "hardhat-deploy-ethers": "*"
+  },
+  "description": "The project consists in offering a minimalist yet efficient trade/swap mechanism and take an approach that a lot of solidity developers fear, loops.",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loop-defi/contract.git"
+  },
+  "keywords": [
+    "LOOP-DEFI"
+  ],
+  "author": "Ian Decentralize",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loop-defi/contract/issues"
+  },
+  "homepage": "https://github.com/loop-defi/contract#readme"
+}
